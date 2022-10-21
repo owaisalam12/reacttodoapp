@@ -29,6 +29,13 @@ const App = () => {
 
     
         }
+        const editItem = (id) => {
+    
+          console.log(id)
+          
+  
+      
+          }
   return (
   <>
     <div className="main_div">
