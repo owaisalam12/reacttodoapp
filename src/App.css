@@ -2,3 +2,10 @@ body {
   text-align: center;
   font-size: 10px;
 }
+.btn-overlay {
+  background-color: white;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-bottom: -20px;
+  padding: 0;
+}
