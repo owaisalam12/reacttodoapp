@@ -41,11 +41,11 @@ const App = () => {
     <div className="main_div">
       <div className="center_div">
         <br />
-        <h1> ToDo List </h1>
+        <h1> ToDo List For hacktobarfast </h1>
          <br />
          < input type="text" placeholder="Add Items" onChange={itemEvent}
          value={inputList}/> 
-         <button onClick={listOfItems}> + </button>
+         <button onClick={listOfItems}> ++ </button>
 
     <ol>
       {items.map( (itemval,index)=>{
@@ -55,6 +55,13 @@ const App = () => {
       })}
     </ol>
     
+    <ol>
+      {items.map( (itemval,index)=>{
+        return(
+        <ToDoList key={index} id={index} text={itemval} onSelect={deleteItems} />
+        )
+      })}
+    </ol>
 
     
     </div>
