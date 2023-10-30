@@ -17,8 +17,8 @@
 }
 
 .center_div{
-  width: 60%;
-  height: 80vh;
+  width: 70%;
+  height: 75vh;
   background-color: #f4f4f4;
   box-shadow: 5px 5px 25px -5px rgba(0, 0,0, 0.5);
   border-radius: 15px;
@@ -36,7 +36,7 @@ h1 {
 
 input{
   text-align: center;
-  height: 30px;
+  height: 35px;
   top: 10px;
   border: none;
   background: transparent;
