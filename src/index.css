@@ -6,7 +6,7 @@
 }
 
 .main_div{
-  width: 100%;
+  width: 90%;
   height: 100vh;
   background: yellow;
   display: flex;
@@ -36,7 +36,7 @@ h1 {
 
 input{
   text-align: center;
-  height: 30px;
+  height: 40px;
   top: 10px;
   border: none;
   background: transparent;
@@ -92,7 +92,7 @@ ol li{
 
 .todo_style .fa-times{
 width: 20px;
-height: 20px;
+height: 30px;
 display: flex;
 justify-content: center;
 align-items: center;
